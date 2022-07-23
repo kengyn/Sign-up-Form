@@ -79,7 +79,7 @@ body {
 
 .signupForm {
   flex: 1;
-
+  box-shadow: 1px 3px 4px lightgray;
   padding: 10px 50px;
   background-color: white;
 }
@@ -113,6 +113,15 @@ body {
   font-size: 15px;
 }
 
+.formRow input:focus {
+  outline-color: blue;
+  box-shadow: 1px 3px 4px lightgray;
+}
+
+.formRow input:invalid {
+  outline-color: red;
+}
+
 button {
   margin: 30px 50px;
   padding: 13px 65px;
@@ -128,4 +137,10 @@ button {
 .loginContainer {
   flex: 1;
   margin-left: 50px;
+}
+
+a {
+  color: #445039;
+  font-weight: bold;
+  text-decoration: none;
 }
