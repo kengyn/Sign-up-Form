@@ -144,3 +144,11 @@ a {
   font-weight: bold;
   text-decoration: none;
 }
+.formRow > .error {
+  border-color: red;
+}
+
+.errorText {
+  font-size: 0.7rem;
+  color: red;
+}
