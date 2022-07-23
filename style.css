@@ -46,6 +46,16 @@ body {
   font-size: 7rem;
 }
 
+.credit {
+  font-size: 0.7rem;
+  color: white;
+  position: absolute;
+  bottom: 0;
+}
+.credit a {
+  color: lightgray;
+}
+
 .formcontainer {
   display: flex;
   flex-direction: column;
