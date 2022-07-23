@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: odin-font;
+  src: url(./Norse-Bold.otf);
+}
+
+body {
+  display: flex;
+}
+.frogContainer {
+  position: relative;
+  width: 50vw;
+  height: 100vh;
+  background: url(./ks-kyung-nie31AKyPHI-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.sidebar {
+  position: absolute;
+  height: 20vh;
+  width: 100%;
+  top: 20vh;
+  background-color: rgba(19, 18, 18, 0.788);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.sidebar img {
+  height: 100%;
+}
+
+.sidebar h1 {
+  text-align: center;
+  color: white;
+  font-family: odin-font;
+  font-size: 7rem;
+}
+
+.formcontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
